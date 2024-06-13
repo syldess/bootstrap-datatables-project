@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Grid Example</title>
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container m-4">
+    <h2 class="mt-5">Bootstrap 4 Grid System Examples</h2>
+
+    <!-- Basic Grid Example -->
+    <h3>Basic Grid</h3>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 1</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 2</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 3</div>
+      <div class="col-sm-6 col-md-4 col-lg-3">Column 4</div>
+    </div>
+
+    <!-- Responsive Grid Example -->
+    <h3 class="mt-5">Responsive Grid</h3>
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">Column 1</div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">Column 2</div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">Column 3</div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">Column 4</div>
+    </div>
+
+    <!-- Nested Grid Example -->
+    <h3 class="mt-5">Nested Grid</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-6">Nested Column 1</div>
+          <div class="col-6">Nested Column 2</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-6">Nested Column 3</div>
+          <div class="col-6">Nested Column 4</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Offset Example -->
+    <h3 class="mt-5">Offset Columns</h3>
+    <div class="row">
+      <div class="col-md-4 offset-md-4">Centered Column</div>
+    </div>
+
+    <!-- Variable Width Content -->
+    <h3 class="mt-5">Variable Width Content</h3>
+    <div class="row justify-content-md-center">
+      <div class="col col-lg-2">1 of 3</div>
+      <div class="col-md-auto">Variable width content</div>
+      <div class="col col-lg-2">3 of 3</div>
+    </div>
+    
+    <!-- Equal-width Multi-row Grid -->
+    <h3 class="mt-5">Equal-width Multi-row Grid</h3>
+    <div class="row">
+      <div class="col">1 of 2</div>
+      <div class="col">2 of 2</div>
+    </div>
+    <div class="row">
+      <div class="col">1 of 3</div>
+      <div class="col">2 of 3</div>
+      <div class="col">3 of 3</div>
+    </div>
+
+    <!-- Auto-layout Columns -->
+    <h3 class="mt-5">Auto-layout Columns</h3>
+    <div class="row">
+      <div class="col">1 of 2</div>
+      <div class="col">2 of 2</div>
+    </div>
+    <div class="row">
+      <div class="col">1 of 3</div>
+      <div class="col">2 of 3</div>
+      <div class="col">3 of 3</div>
+    </div>
+  </div>
+</body>
+</html>

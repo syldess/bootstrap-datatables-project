@@ -55,7 +55,7 @@ php -S localhost:8000
 ![](/img/bootstrap-grid-example.png)
 
 
-### Datatases Examples
+### Datatables Examples
 
 ![](/img/datatable-example-1.png)
 ![](/img/datatable-example-2.png)

@@ -48,6 +48,18 @@ php -S localhost:8000
 `http://localhost:8000/grid-example.html` for the Bootstrap Grid example.
 ```
 
+## Visual Examples
+
+### Bootstrap Grid Example
+
+![](/img/bootstrap-grid-example.png)
+
+
+### Datatases Examples
+
+![](/img/datatable-example-1.png)
+![](/img/datatable-example-2.png)
+
 ## Contributing
 
 - Fork the repository.
